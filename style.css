@@ -1,0 +1,105 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+main{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	background: #ff7db8;
+}
+h1{
+	text-align: center;
+	color: white;
+	font-size: 3rem;
+}
+.box{
+	width:auto;
+	height: 80vh;
+	border-radius: 2rem;
+	 background:linear-gradient( #fe8dc6 0%, #fed1c7 100%);
+	  box-shadow: 0 1.2rem 3rem 0.5rem rgba(0, 0, 0, 0.2);
+
+}
+
+.sec1{
+	height: 35%;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	
+}
+
+.Instruction{
+	text-align: center;
+	text-transform: capitalize;
+	width: 100%;
+	font-size: 1.3rem;
+	color: white;
+}
+#operand1{
+	padding:1.5rem;
+	border: 1px solid white;
+	border-radius: 50%;
+	font-size: 1.3rem;
+	color: white;
+}
+#operand2{
+	padding:1.5rem;
+	border: 1px solid white;
+	border-radius: 50%;
+	font-size: 1.3rem;
+	color: white;
+
+}
+#operator{
+	padding: 15px 20px;
+	border: 1px solid white;
+	border-radius: 50%;
+	font-size: 1.3rem;
+	color: white;
+	
+}
+
+.sec2{
+	height: 65%;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+
+}
+
+#option1, #option2, #option3, #option4{
+	padding: 1rem 2rem;
+	color: pink;
+	font-size: 1.3rem;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+#msgbox{
+	width: 100%;
+	padding: 10px 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid white;
+	border-radius: 10px;
+}
+
+#retry{
+    border-radius:10px;
+    padding: 10px;
+    border: 2px solid white;}
+
+    
